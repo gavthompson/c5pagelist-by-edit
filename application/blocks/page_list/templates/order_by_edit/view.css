@@ -1,0 +1,66 @@
+a.ccm-block-page-list-rss-feed{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div.ccm-block-page-list-wrapper {
+    position: relative;
+    padding:1em;
+	background-color:#e7f7fe;
+	margin-top:1em;
+    margin-bottom: 1em;
+    border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+div.ccm-block-page-list-page-entry-horizontal {
+    display: table;
+    width: 100%;
+}
+
+div.ccm-block-page-list-page-entry-horizontal,
+div.ccm-block-page-list-page-entry {
+    margin-bottom: 10px;
+}
+
+
+div.ccm-block-page-list-page-entry-horizontal div.ccm-block-page-list-page-entry-thumbnail {
+    display: table-cell;
+    vertical-align: top;
+    width: 1px;
+}
+
+div.ccm-block-page-list-page-entry-horizontal div.ccm-block-page-list-page-entry-thumbnail img {
+    width: 120px;
+    max-width: none;
+}
+
+
+div.ccm-block-page-list-page-entry-horizontal div.ccm-block-page-list-page-entry-text {
+    display: table-cell;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+div.ccm-block-page-list-page-entry-text div.ccm-block-page-list-title {
+    font-weight: bold;
+}
+
+div.ccm-block-page-list-page-entry-read-more {
+    margin-top: 20px;
+}
+hr.hr1 {
+    border: 0;
+    height: 1px;
+    background: #1B69C4;
+    background-image: linear-gradient(to right, #ccc, #1B69C4, #ccc);
+ }
+hr.hr2 {
+    border: 0;
+    height: 2px;
+    background: #1B69C4;
+    background-image: linear-gradient(to right, #ccc, #1B69C4, #ccc);
+ }
